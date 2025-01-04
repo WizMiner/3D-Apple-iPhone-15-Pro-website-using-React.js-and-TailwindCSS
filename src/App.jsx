@@ -6,7 +6,7 @@ import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
 import Footer from "./components/Footer";
 
-const App = () => {
+export const App = () => {
   return (
     <main className="bg-black">
       <Navbar />
@@ -19,5 +19,3 @@ const App = () => {
     </main>
   );
 };
-
-export default App;
